@@ -1,23 +1,17 @@
 # MNIST tutorial
 
-This code trained MNIST dataset from _torchvision_
+<a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white"/></a>
+<a href="https://jupyter.org/"><img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white"/></a>
 
-PyTorch and Jupyter Notebook was used
+Code trained from MNIST dataset in _torchvision_
 
+## Result from Basic MNIST with Deep Neural Network
 
-## Result
-
-after 1000 epoch the graph looks like the following
-> Optimizer is defined by Stochastic Gradient Descent
->
-> Loss function is Cross Entropy Loss
-
-It shows that the network is well trained just by using simple 2 hidden layer with 100 neurons each
-
-![image](MNIST_project/outputs.png)
+#### 5m 20s/100 epochs
+![image](MNIST_project/Basic/graph.png)
 
 
-### Data Outcome
+## Result from LeNet-5
 
-![image](MNIST_project/demo.png)
-
+#### 26m 14s/100 epochs
+![image](MNIST_project/LeNet-5/graph.png)
