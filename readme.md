@@ -5,6 +5,8 @@
 
 Code trained from MNIST dataset in _torchvision_
 
+![image](MNIST_project/Basic/output.png)
+
 ## Result from Basic MNIST with Deep Neural Network
 
 #### 5m 20s/100 epochs
